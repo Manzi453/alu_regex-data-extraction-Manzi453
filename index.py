@@ -48,26 +48,26 @@ def extract_times(text):
 # Main function to load the text and run the extractions
 def main():
     # Load the sample text from the file
-    sample_text = load_sample_text('sample_text.txt')
+    sample_text = load_sample_text('index1.txt')
 
     # Extract and print different types of data
 
     print()
-    print("Extracted Emails:", extract_Emails(sample_text))
+    print("Extracted Emails:", extract_Emails(index1.txt))
     print()
-    print("Extracted URLs:", extract_urls(sample_text))
+    print("Extracted URLs:", extract_urls(index1.txt))
     print()
-    print("Extracted Phone Numbers:", extract_phone_numbers(sample_text))
+    print("Extracted Phone Numbers:", extract_phone_numbers(index1.txt))
     print()
-    print("Extracted Credit Card Numbers:", extract_credit_cards(sample_text))
+    print("Extracted Credit Card Numbers:", extract_credit_cards(index1.txt))
     print()
-    print("Extracted HTML Tags:", extract_html_tags(sample_text))
+    print("Extracted HTML Tags:", extract_html_tags(index1.txt))
     print()
-    print("Extracted Hashtags:", extract_hashtags(sample_text))
+    print("Extracted Hashtags:", extract_hashtags(index1.txt))
     print()
-    print("Extracted Currency Amounts:", extract_currency_amounts(sample_text))
+    print("Extracted Currency Amounts:", extract_currency_amounts(index1.txt))
     print()
-    print("Extracted Times:", extract_times(sample_text))
+    print("Extracted Times:", extract_times(index1.txt))
   
 
 if __name__ == '__main__':
