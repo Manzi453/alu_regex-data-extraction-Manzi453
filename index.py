@@ -47,8 +47,8 @@ def extract_times(text):
 
 # Main function to load the text and run the extractions
 def main():
-    # Load the sample text from the file
-    sample_text = load_sample_text('index1.txt')
+    # Load the index1 from the file
+    index1 = load_sample_text('index1.txt')
 
     # Extract and print different types of data
 
