@@ -53,21 +53,21 @@ def main():
     # Extract and print different types of data
 
     print()
-    print("Extracted Emails:", extract_Emails(index1.txt))
+    print("Extracted Emails:", extract_Emails(index1))
     print()
-    print("Extracted URLs:", extract_urls(index1.txt))
+    print("Extracted URLs:", extract_urls(index1))
     print()
-    print("Extracted Phone Numbers:", extract_phone_numbers(index1.txt))
+    print("Extracted Phone Numbers:", extract_phone_numbers(index1))
     print()
-    print("Extracted Credit Card Numbers:", extract_credit_cards(index1.txt))
+    print("Extracted Credit Card Numbers:", extract_credit_cards(index1))
     print()
-    print("Extracted HTML Tags:", extract_html_tags(index1.txt))
+    print("Extracted HTML Tags:", extract_html_tags(index1))
     print()
-    print("Extracted Hashtags:", extract_hashtags(index1.txt))
+    print("Extracted Hashtags:", extract_hashtags(index1))
     print()
-    print("Extracted Currency Amounts:", extract_currency_amounts(index1.txt))
+    print("Extracted Currency Amounts:", extract_currency_amounts(index1))
     print()
-    print("Extracted Times:", extract_times(index1.txt))
+    print("Extracted Times:", extract_times(index1))
   
 
 if __name__ == '__main__':
