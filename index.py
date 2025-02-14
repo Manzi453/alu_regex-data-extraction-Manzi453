@@ -9,9 +9,9 @@ def load_sample_text(filename):
         return ""
 
 # 1. Extracting Email Addresses
-def extract_Emails(text):
-    Emails_pattern = r'\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b'
-    return re.findall(Emails_pattern, text)
+def extract_emails(text):
+    emails_pattern = r'\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b'
+    return re.findall(emails_pattern, text)
 
 # 2. Extracting URLs
 def extract_urls(text):
@@ -55,7 +55,7 @@ def main():
     if not index1:
         return  # Stop execution if the file is not found
 
-    print("\nExtracted Emails:", extract_Emails(index1))
+    print("\nExtracted Emails:", extract_emails(index1))
     print("\nExtracted URLs:", extract_urls(index1))
     print("\nExtracted Phone Numbers:", extract_phone_numbers(index1))
     print("\nExtracted Credit Card Numbers:", extract_credit_cards(index1))
